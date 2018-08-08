@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4924fb73-a0cf-4d0b-8b79-3773c23040bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/components.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-event/add-new-event.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-event/add-new-event.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-event/add-new-event.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-event/add-new-event.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-feed/add-new-feed.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-feed/add-new-feed.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-feed/add-new-feed.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/add-new-feed/add-new-feed.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/modals/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/band-member.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/band.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/event.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/feed.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/login-details.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/models/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-detail/band-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-detail/band-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-detail/band-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-detail/band-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-member-detail/band-member-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-member-detail/band-member-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-member-detail/band-member-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/band/band-member-detail/band-member-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/dashboard/dashboard.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/dashboard/dashboard.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/dashboard/dashboard.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/dashboard/dashboard.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/event-detail/event-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/event-detail/event-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/event-detail/event-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/event-detail/event-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/events-list/events-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/events-list/events-list.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/events-list/events-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/events/events-list/events-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/home/home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/news-feed/news-feed.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/news-feed/news-feed.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/news-feed/news-feed.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/routes/news-feed/news-feed.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/band.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/event.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/feed.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/auth-guard.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/date-picker.formatter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/date.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/url.util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/demo/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/nucleo-outline.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/nucleo-outline.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/nucleo-outline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/nucleo-outline.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/angular2-logo-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/angular2-logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/mike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/now-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_checkboxes-radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_nucleo-outline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/cards/_card-chart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/cards/_card-map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/cards/_card-plain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/cards/_card-user.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_page-header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/plugins/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/modules/chartist/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/typings/modules/chartist/typings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/BandmanApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/controller/BandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/controller/BandMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/controller/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/model/Band.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/model/BandMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/model/Feed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/model/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/repository/BandMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/repository/BandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/repository/EventRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/repository/FeedRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/BandMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/BandMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/BandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/BandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/FeedService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/FeedServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/java/com/pjp/bandmanapi/service/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../api/src/test/java/com/pjp/bandmanapi/BandmanApiApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-admin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/BandmanApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/controller/BandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/controller/BandMemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/controller/EventController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/controller/FeedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/model/Band.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/model/BandMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/model/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/model/Feed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/model/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/repository/BandMemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/repository/BandRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/repository/EventRespository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/repository/FeedRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/BandMemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/BandMemberServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/BandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/BandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/BaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/EventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/EventServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/FeedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/FeedServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/java/com/pjp/bandmanapi/service/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bandman-api/src/test/java/com/pjp/bandmanapi/BandmanApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-848986130">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4924fb73-a0cf-4d0b-8b79-3773c23040bd" name="Default Changelist" comment="" />
+      <created>1533745673256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533745673256</updated>
+      <workItem from="1533745674489" duration="113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/layouts/admin-layout/admin-layout.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

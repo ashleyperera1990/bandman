@@ -1,0 +1,55 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+    <div class="row">
+
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="title">News Feed</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="nav justify-content-end">
+                            <button class="btn btn-success" (click)="openModal()"> Add New</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" *ngFor="let feed of feeds">
+        <div class="col-md-7 offset-md-2">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <p>Date Added: {{feed.dateTimePosted | date: 'medium'}}</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <button class="btn btn-sm btn-danger">Delete</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body text-center">
+                    <p>{{feed.message}}</p>
+                    <hr>
+                    <p *ngIf="feed.youtubeVideoId">
+                        <youtube-player [videoId]="feed.youtubeVideoId" [height]="250" [width]="400"></youtube-player>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

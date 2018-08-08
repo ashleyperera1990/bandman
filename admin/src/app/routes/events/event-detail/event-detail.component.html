@@ -1,0 +1,90 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="title" *ngIf="readOnly">Your Band's Details</h5>
+                            <h5 class="title" *ngIf="!readOnly">Edit Your Band's Details</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <button class="btn btn-warning" *ngIf="readOnly" (click)="toggleEdit()">Edit
+                                    </button>
+                                    <button class="btn btn-danger" *ngIf="!readOnly" (click)="clearChanges()">Cancel
+                                    </button>
+                                    <button class="btn btn-success" *ngIf="!readOnly" (click)="save()">Save</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+
+                    <div *ngIf="event">
+                        <div class="form-group">
+                            <label for="eventName">Title</label>
+                            <input type="text" class="form-control" id="eventName"
+                                   placeholder="Title" [disabled]="readOnly"
+                                   [(ngModel)]="event.title"/>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventLocation">Location</label>
+                            <input type="text" class="form-control" id="eventLocation"
+                                   placeholder="Location" [disabled]="readOnly"
+                                   [(ngModel)]="event.location"/>
+                        </div>
+
+                        <div class="form-group" *ngIf="!readOnly">
+                            <label for="date">Date</label>
+                            <input *ngIf="!readOnly" id="date" type="text" (click)="d.toggle()" class="form-control"
+                                   ngbDatepicker #d="ngbDatepicker"
+                                   [(ngModel)]="date"/>
+                        </div>
+
+                        <div class="form-group" *ngIf="readOnly">
+                            <label for="date2">Date</label>
+                            <div id="date2">
+                                {{event.dateTime | date}}
+                            </div>
+                        </div>
+
+                        <div class="form-group" *ngIf="!readOnly">
+                            <label for="time">Start Time</label>
+                            <ngb-timepicker id="time" [(ngModel)]="time" [spinners]="false"
+                                            aria-disabled="true"></ngb-timepicker>
+                        </div>
+
+                        <div class="form-group" *ngIf="readOnly">
+                            <label for="time2">Start Time</label>
+                            <div id="time2">
+                                {{event.dateTime | date:'shortTime'}}
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="eventInfo">Details</label>
+                            <textarea class="form-control" id="bandInfo" name="info" rows="15"
+                                      [(ngModel)]="event.details" style="height: 100%" [disabled]="readOnly">
+
+                            </textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="facebookLink">Facebook Link</label>
+                            <input type="text" class="form-control" id="facebookLink"
+                                   placeholder="Your Band's Facebook Link" [disabled]="readOnly"
+                                   [(ngModel)]="event.facebookEventUrl"/>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

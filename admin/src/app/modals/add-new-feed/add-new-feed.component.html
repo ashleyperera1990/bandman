@@ -1,0 +1,22 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{title}}</h4>
+</div>
+<div class="modal-body">
+
+  <div class="form-group">
+    <label for="youtubeVideoId">Youtube Link</label>
+    <input type="text" class="form-control" id="youtubeVideoId" [(ngModel)]="youtubeUrl"/>
+  </div>
+
+  <div class="form-group">
+    <label for="bandInfo">Your Message</label>
+    <textarea class="form-control" id="bandInfo"
+              rows="10" [(ngModel)]="feed.message">
+    </textarea>
+  </div>
+
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" (click)="cancel()">Cancel</button>
+  <button type="button" class="btn btn-success" (click)="save()">Save</button>
+</div>

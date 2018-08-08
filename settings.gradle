@@ -9,4 +9,4 @@
 
 rootProject.name = 'bandman'
 
-include('bandman-api')
+include('api')

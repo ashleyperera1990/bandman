@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bandman-admin/bandman-admin.iml" filepath="$PROJECT_DIR$/bandman-admin/bandman-admin.iml" group="bandman-api" />
+      <module fileurl="file://$PROJECT_DIR$/admin/admin.iml" filepath="$PROJECT_DIR$/admin/admin.iml" />
     </modules>
   </component>
 </project>

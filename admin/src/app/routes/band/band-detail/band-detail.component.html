@@ -1,0 +1,164 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content" *ngIf="band">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="title" *ngIf="readOnly">Your Band's Details</h5>
+                            <h5 class="title" *ngIf="!readOnly">Edit Your Band's Details</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <button class="btn btn-warning" *ngIf="readOnly" (click)="toggleEdit()">Edit
+                                    </button>
+                                    <button class="btn btn-danger" *ngIf="!readOnly" (click)="clearChanges()">Cancel
+                                    </button>
+                                    <button class="btn btn-success" *ngIf="!readOnly" (click)="saveBand()">Save</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 pr-1">
+                                <div class="form-group">
+                                    <label for="bandName">Band Name</label>
+                                    <input type="text" class="form-control" id="bandName" name="name"
+                                           placeholder="Your Band's Name" [disabled]="readOnly"
+                                           [(ngModel)]="band.name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 pr-1">
+                                <div class="form-group">
+                                    <label>Base Location</label>
+                                    <input type="text" class="form-control" placeholder="City"
+                                           [(ngModel)]="band.baseLocation"
+                                           [disabled]="readOnly" name="baseLocation">
+                                </div>
+                            </div>
+                            <div class="col-md-6 px-1">
+                                <div class="form-group">
+                                    <label>Genre / Category</label>
+                                    <input type="text" class="form-control" placeholder="Country"
+                                           [(ngModel)]="band.genre"
+                                           [disabled]="readOnly" name="genre">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 pr-1">
+                                <div class="form-group">
+                                    <label>Facebook Link</label>
+                                    <input type="text" class="form-control"
+                                           placeholder="This is the link to your Facebook"
+                                           [(ngModel)]="band.facebookLink" name="facebook" [disabled]="readOnly">
+                                </div>
+                            </div>
+                            <div class="col-md-4 px-1">
+                                <div class="form-group">
+                                    <label>Twitter Link</label>
+                                    <input type="text" class="form-control" placeholder="Country"
+                                           [(ngModel)]="band.twitterLink" name="twitter" [disabled]="readOnly">
+                                </div>
+                            </div>
+                            <div class="col-md-4 px-1">
+                                <div class="form-group">
+                                    <label>Youtube Link</label>
+                                    <input type="text" class="form-control" placeholder="Country"
+                                           [(ngModel)]="band.youtubeLink" name="youtube" [disabled]="readOnly">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="bandInfo">Band Info</label>
+                                    <textarea class="form-control" id="bandInfo" name="info" rows="15"
+                                              [(ngModel)]="band.info" style="height: 100%" [disabled]="readOnly">
+
+                                    </textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="title">Band Members</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="nav justify-content-end">
+                                    <li class="nav-item">
+                                        <button class="btn btn-sm btn-success" (click)="addBandMember()">Add</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table" *ngIf="band && band.bandMembers.length > 0">
+                            <thead class=" text-primary">
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th></th>
+                            </thead>
+                            <tbody>
+                            <tr *ngFor="let member of band.bandMembers">
+                                <td>{{member.firstName}}</td>
+                                <td>{{member.bandRole}}</td>
+                                <td>
+                                    <button class="btn btn-sm btn-success" (click)="viewBandMember(member)">View
+                                    </button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <h4 *ngIf="!band || band.bandMembers.length === 0">No Events Scheduled</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h6>Social Media Links</h6>
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-neutral btn-icon btn-round btn-lg">
+                            <a class="fab fa-facebook-f" href="{{band.facebookLink}}">
+
+                            </a>
+                        </button>
+                        <button href="#" class="btn btn-neutral btn-icon btn-round btn-lg">
+                            <a class="fab fa-twitter" href="{{band.twitterLink}}">
+
+                            </a>
+                        </button>
+                        <button href="#" class="btn btn-neutral btn-icon btn-round btn-lg">
+                            <a class="fab fa-google-plus-g" href="{{band.youtubeLink}}"></a>
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

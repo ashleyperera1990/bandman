@@ -1,0 +1,42 @@
+<div class="panel-header panel-header-sm">
+</div>
+<div class="main-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <button class="btn btn-success" (click)="openModal()"> Add New</button>
+                        </li>
+                    </ul>
+                    <h4 class="card-title">Upcoming Events</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table" *ngIf="events && events.length > 0">
+                        <tr class="text-primary">
+                            <th>Title</th>
+                            <th>Location</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tbody>
+                        <tr *ngFor="let event of events">
+                            <td>{{event.title}}</td>
+                            <td>{{event.location}}</td>
+                            <td>{{event.dateTime | date}}</td>
+                            <td>{{event.dateTime | date}}</td>
+                            <td>
+                                <button class="btn btn-sm btn-success" (click)="viewEvent(event)">View</button>
+                                <button class="btn btn-sm btn-danger">Delete</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <h4 *ngIf="!events || events.length === 0">No Events Scheduled</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
